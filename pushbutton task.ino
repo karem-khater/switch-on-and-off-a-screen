@@ -11,6 +11,7 @@ void loop()
 {
 Reading=digitalRead(button);
   if(Reading==HIGH){
-    digitalWrite(led,HIGH);}
+    digitalWrite(led,HIGH);
+    delay(5000);}
   else{digitalWrite(led,LOW);}
 }
